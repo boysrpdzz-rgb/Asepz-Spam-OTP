@@ -160,7 +160,7 @@ def matrix_loading(duration=3):
         matrix.update()
         
         colored_ascii = []
-        for line in ascii_asepz:
+        for line in ascii_arlen:
             colored_line = ""
             for i, char in enumerate(line):
                 if char != ' ':
